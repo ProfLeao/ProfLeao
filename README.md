@@ -1,5 +1,5 @@
 ### Hi there 👋
-I'm Dr. Reginaldo Leão, professor and researcher at Federal Institute of Minas Gerais (IFMG)[https://www.ifmg.edu.br/arcos/], also co-leader of the Study Group on Energy Systems and Computational Simulation  (@GESESC)[https://github.com/GESESC].
+I'm Dr. Reginaldo Leão, professor and researcher at Federal Institute of Minas Gerais [IFMG](https://www.ifmg.edu.br/arcos/), also co-leader of the Study Group on Energy Systems and Computational Simulation  [@GESESC](https://github.com/GESESC).
 
 In my research I work with the development of models for the interaction of radiation with matter and computational solutions for the optimization and simulation of new energy sources, mainly biomass.
 

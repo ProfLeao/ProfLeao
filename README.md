@@ -1,16 +1,13 @@
 ### Hi there 👋
+I'm Dr. Reginaldo Leão, professor and researcher at Federal Institute of Minas Gerais (IFMG), also co-leader of the Study Group on Energy Systems and Computational Simulation  @GESESC.
 
-<!--
-**ProfLeao/ProfLeao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+In my research I work with the development of models for the interaction of radiation with matter and computational solutions for the optimization and simulation of new energy sources, mainly biomass.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ <p align="center">
+ <img src="https://github-readme-stats.vercel.app/api?username=ProfLeao&show_icons=true&include_all_commits=true&count_private=true" alt="ProfLeao"/> 
+ </p>
+ 
+  <p align="center">
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProfLeao&layout=compact" alt="languages" />
+ </p>
+ 

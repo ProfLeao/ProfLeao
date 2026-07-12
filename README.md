@@ -77,11 +77,11 @@ I am a **Professor EBTT** at the **Federal Institute of Minas Gerais (IFMG)**, s
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=reginaldoleao&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Reginaldo's Stats" height="180px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reginaldoleao&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="180px" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProfLeao&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="180px" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=reginaldoleao&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ProfLeao&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---

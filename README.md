@@ -122,8 +122,8 @@ For a full list of my scientific contributions, please visit my <b>Google Schola
 ## 🌟 Featured Repositories
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=reginaldoleao&repo=applied-programming-engineering&theme=tokyonight" alt="Repo 1" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=reginaldoleao&repo=nuclear-simulation-tools&theme=tokyonight" alt="Repo 2" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ProfLeao&repo=applied-programming-engineering&theme=tokyonight" alt="Repo 1" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ProfLeao&repo=nuclear-simulation-tools&theme=tokyonight" alt="Repo 2" />
 </p>
 
 ---

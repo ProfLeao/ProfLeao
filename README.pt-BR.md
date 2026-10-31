@@ -33,7 +33,7 @@
 
 Cientista computacional atuando em termoquímica, combustão e transporte de radiação. Doutor em **Ciência das Radiações** (UFMG), com formação em Física e Engenharia Química. Mantenedor de software científico de código aberto.
 
-Professor no **Instituto Federal de Minas Gerais (IFMG)**, onde trabalho com sistemas energéticos e proteção radiológica (CNEN).
+Professor no **Instituto Federal de Minas Gerais (IFMG)**, onde trabalho com sistemas energéticos.
 
 ## 🎓 Formação Acadêmica
 
@@ -87,16 +87,14 @@ Pacotes de código aberto para modelagem termoquímica em engenharia — um úni
 
 > **Adoção pela comunidade** — o Clapeyron.jl disponibiliza o modelo de gás ideal `GlennJL`, construído sobre a base de coeficientes da NASA mantida pelo Glenn.jl ([PR #616](https://github.com/ClapeyronThermo/Clapeyron.jl/pull/616)).
 
-## ☢️ Transporte de Radiação via Monte Carlo
-
-Modelos de feixes clínicos de fótons construídos e avaliados com **EGSnrc**, **BEAMnrc** e **DOSXYZnrc**: um cabeçote VARIAN CLINAC 2100 foi modelado e validado contra medições de comissionamento para dosimetria de pequenos campos — concordância lateral acima de 98%, concordância de dose em profundidade acima de 90% no pior caso e incerteza relativa máxima de 4% com 10⁹ histórias ([BJRS, 2018](https://doi.org/10.15392/bjrs.v6i1.314)).
-
-## 📄 Publicações Selecionadas — Energia
+## 📄 Publicações Selecionadas — Energia e Transporte de Radiação via Monte Carlo
 
 - Rezende, J. A. M.; **Leão Junior, R. G.**; Gomes, O. S. M. *Scientometric analysis of publications on household electricity theft and energy consumption load profiling in a smart grid context.* **Sustainability**, 2024. [10.3390/su16229921](https://doi.org/10.3390/su16229921)
 - Lemos, L.; Goulart, P.; **Leão Junior, R. G.**; Carpio, R.; Fernandes, M. T. *Exergy analysis of the electricity generation process in the reuse of blast furnace gases in a steelmaking company.* Proc. 26th International Congress of Mechanical Engineering (COBEM), 2021. [10.26678/abcm.cobem2021.cob2021-1887](https://doi.org/10.26678/abcm.cobem2021.cob2021-1887)
 - Leal, G.; Leal, J. M.; Gomes, A.; Carpio, R.; **Leão Junior, R. G.** *Calibration of a low-cost digital hygrometer for measuring moisture in sugarcane bagasse.* Proc. 27th International Congress of Mechanical Engineering (COBEM), 2025. [10.26678/abcm.cobem2023.cob2023-0533](https://doi.org/10.26678/abcm.cobem2023.cob2023-0533)
 - Lopes, F. F.; **Leão Junior, R. G.** *Proposal for a new methodological approach to measure the concentration of methane in biogas using a low-cost sensor.* Proc. 18th Brazilian Congress of Thermal Sciences and Engineering (ENCIT), 2020. [10.26678/abcm.encit2020.cit20-0171](https://doi.org/10.26678/abcm.encit2020.cit20-0171)
+- **Leão Jr, R. G.**; Sousa, R. V.; Oliveira, A. H.; Leonardo Silva, H. L.; Mourão, A. P. *Validação de um modelo computacional de acelerador linear VARIAN CLINAC 2100 utilizando o código EGSnrc para utilização em dosimetria de pequenos campos.* **Brazilian Journal of Radiation Sciences**, v. 6, n. 1, 2018. [10.15392/bjrs.v6i1.314](https://doi.org/10.15392/bjrs.v6i1.314)
+- **Leão, R. G.**; Sousa, R. V.; Oliveira, A. H.; Silva, H. L. L.; Mourão, A. P. *Computational analysis of "Dose/Collision Kerma" relationship and lateral boundary in stereotactic circular fields using EGSnrc.* **Revista Brasileira de Física Médica**, v. 10, n. 1, 2017. [10.29384/rbfm.2016.v10.n1.p2-8](https://doi.org/10.29384/rbfm.2016.v10.n1.p2-8)
 
 Artigos de engenharia nuclear e ciência das radiações estão no meu [perfil do Google Scholar](https://scholar.google.com.br/citations?user=GcjoCaMAAAAJ&hl=pt-BR).
 

@@ -4,8 +4,8 @@
   <h1>Reginaldo Gonçalves Leão Junior, Ph.D.</h1>
 
   <p>
-    <b>Professor</b> · Instituto Federal de Minas Gerais (IFMG)<br>
-    Nuclear Engineering · Computational Physics · Numerical Simulation
+    Thermochemistry · Combustion · Radiation Transport<br>
+    Professor, Instituto Federal de Minas Gerais (IFMG) · Brazil
   </p>
 
   <sub><b>English</b> · <a href="README.pt-BR.md">Português</a></sub>
@@ -31,7 +31,9 @@
 
 ## 👨‍🏫 About
 
-Professor **EBTT** at the **Instituto Federal de Minas Gerais (IFMG)**, teaching in the Bachelor of Mechanical Engineering program. Ph.D. in **Radiation Science** (UFMG). My work integrates teaching, computational research and supervision in radiological protection (CNEN), with a focus on numerical methods applied to energy systems and nuclear engineering.
+Computational scientist working on thermochemistry, combustion and radiation transport. Ph.D. in **Radiation Science** (UFMG), with degrees in Physics and Chemical Engineering. Maintainer of open-source scientific software.
+
+Professor at the **Instituto Federal de Minas Gerais (IFMG)**, Brazil, where I work on energy systems and radiological protection (CNEN).
 
 ## 🎓 Academic Background
 
@@ -46,11 +48,11 @@ Professor **EBTT** at the **Instituto Federal de Minas Gerais (IFMG)**, teaching
 
 Member of **GESESC** (Study Group on Energy Systems and Computational Simulation), certified in the CNPq research group directory.
 
-- Computational modeling of nuclear reactors
+- NASA-polynomial thermochemistry and combustion modeling
+- Monte Carlo radiation transport (EGSnrc / BEAMnrc / DOSXYZnrc)
+- Numerical methods applied to energy systems
 - Heat transfer and fluid dynamics in complex systems
-- Numerical methods applied to chemical engineering
-- Energy resource optimization and sustainability
-- Radiation transport simulation via Monte Carlo
+- Computational modeling of nuclear reactors
 
 [🔗 GESESC group at CNPq](http://dgp.cnpq.br/dgp/espelhogrupo/713753)
 
@@ -69,11 +71,11 @@ Member of **GESESC** (Study Group on Energy Systems and Computational Simulation
 
 Open-source packages for thermochemical modeling in engineering — a single NASA-polynomial core, exposed to two ecosystems.
 
-| Package | Ecosystem | Version | Reach | Stars |
+| Package | Version | Reach | Stars | DOI |
 |:--|:--|:--|:--|:--|
-| **[pyglenn](https://github.com/ProfLeao/pyglenn)**<br><sub>Thermodynamic properties from NASA polynomial coefficients, backed by a SQLite database</sub> | Python / PyPI | [![PyPI](https://img.shields.io/pypi/v/pyglenn?style=flat-square)](https://pypi.org/project/pyglenn/) | ![PyPI downloads](https://img.shields.io/pypi/dm/pyglenn?style=flat-square) | ![Stars](https://img.shields.io/github/stars/ProfLeao/pyglenn?style=flat-square) |
-| **[Glenn.jl](https://github.com/ProfLeao/Glenn.jl)**<br><sub>NASA Glenn coefficients for computing thermodynamic properties of individual species</sub> | Julia / General | [![Release](https://img.shields.io/github/v/release/ProfLeao/Glenn.jl?style=flat-square)](https://github.com/ProfLeao/Glenn.jl/releases) | ![Julia requests](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FProfLeao%2FProfLeao%2Fmain%2Fassets%2Fjulia-stats.json) | ![Stars](https://img.shields.io/github/stars/ProfLeao/Glenn.jl?style=flat-square) |
-| **[pyglenn-notebooks](https://github.com/ProfLeao/pyglenn-notebooks)**<br><sub>Jupyter notebooks exploring thermochemical data with pyglenn</sub> | Jupyter | — | — | ![Stars](https://img.shields.io/github/stars/ProfLeao/pyglenn-notebooks?style=flat-square) |
+| **[pyglenn](https://github.com/ProfLeao/pyglenn)**<br><sub>Python · PyPI — thermodynamic properties from NASA polynomial coefficients, SQLite-backed</sub> | [![PyPI](https://img.shields.io/pypi/v/pyglenn?style=flat-square)](https://pypi.org/project/pyglenn/) | ![PyPI downloads](https://img.shields.io/pypi/dm/pyglenn?style=flat-square) | ![Stars](https://img.shields.io/github/stars/ProfLeao/pyglenn?style=flat-square) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21324586.svg)](https://doi.org/10.5281/zenodo.21324586) |
+| **[Glenn.jl](https://github.com/ProfLeao/Glenn.jl)**<br><sub>Julia · General — NASA Glenn coefficients for thermodynamic properties of individual species</sub> | [![Release](https://img.shields.io/github/v/release/ProfLeao/Glenn.jl?style=flat-square)](https://github.com/ProfLeao/Glenn.jl/releases) | ![Julia requests](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FProfLeao%2FProfLeao%2Fmain%2Fassets%2Fjulia-stats.json) | ![Stars](https://img.shields.io/github/stars/ProfLeao/Glenn.jl?style=flat-square) | — |
+| **[pyglenn-notebooks](https://github.com/ProfLeao/pyglenn-notebooks)**<br><sub>Jupyter — notebooks exploring thermochemical data with pyglenn</sub> | — | — | ![Stars](https://img.shields.io/github/stars/ProfLeao/pyglenn-notebooks?style=flat-square) | — |
 
 <p align="center">
   <img src="https://api.star-history.com/svg?repos=ProfLeao/Glenn.jl,ProfLeao/pyglenn&type=Date" alt="Star history of Glenn.jl and pyglenn" width="640">
@@ -81,7 +83,13 @@ Open-source packages for thermochemical modeling in engineering — a single NAS
 
 <sub>Metrics are refreshed automatically: PyPI downloads from [pypistats](https://pypistats.org/packages/pyglenn) (last 30 days, mirrors included); Julia reach from the [official package-server telemetry](https://discourse.julialang.org/t/announcing-package-download-stats/69073), aggregated over the window Julia publishes (`julialang-logs/public_outputs/current`) — no all-time figure is released.</sub>
 
+> **Validation** — Glenn.jl is cross-validated against **NIST-JANAF** reference data for seven species (CO₂, N₂, CO, H₂O, O₂, NH₃, SO₂), with a point-by-point audit (`glenn_vs_nist.csv`) and aggregated statistics.
+
 > **Community adoption** — Clapeyron.jl ships a `GlennJL` ideal-gas model built on the NASA coefficient database maintained by Glenn.jl ([PR #616](https://github.com/ClapeyronThermo/Clapeyron.jl/pull/616)).
+
+## ☢️ Monte Carlo Radiation Transport
+
+Clinical photon-beam models built and benchmarked with **EGSnrc**, **BEAMnrc** and **DOSXYZnrc**: a VARIAN CLINAC 2100 treatment head was modeled and validated against commissioning measurements for small-field dosimetry — lateral field agreement above 98%, depth-dose agreement above 90% in the worst case, and maximum relative uncertainty of 4% at 10⁹ histories ([BJRS, 2018](https://doi.org/10.15392/bjrs.v6i1.314)).
 
 ## 📄 Selected Publications — Energy
 
@@ -106,8 +114,6 @@ Nuclear engineering and radiation-science papers are listed on my [Google Schola
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ProfLeao&theme=tokyonight" alt="Contribution summary for ProfLeao" width="640">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ProfLeao&theme=tokyonight" alt="Languages across repositories" height="160">
-  <img src="https://streak-stats.demolab.com?user=ProfLeao&theme=tokyonight&hide_border=true" alt="Contribution streak" height="160">
 </div>
 
 ---
